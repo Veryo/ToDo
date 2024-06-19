@@ -28,12 +28,12 @@ pip install -r requirements.txt
 #### Testing the application
 Launch terminal and type
 - **Backend**:
-Windows
+-- Windows
 ```
 cd main
 py manage.py runserver
 ```
-Linux/MAC
+-- Linux/MAC
 ```
 cd main
 python3 manage.py runserver
