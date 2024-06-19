@@ -1,35 +1,38 @@
-
-.body{
-  background-color: red;
-  width: 100%;
-  height: 100vh;
-}
-.container{
-  background-color: orange;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items:center
+.App {
+  text-align: center;
 }
 
-.completed{
-  background-color: blue;
-  width: 50%;
-  height: 50%;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
-  align-items: center;
   flex-direction: column;
-}
-.not_completed{
-  background-color: navajowhite;
-  width: 50%;
-  height: 50%;
-}
-.tasks{
-  background-color: red;
-  width: 100%;
-  height: 10%;
-  display: flex;
   align-items: center;
-  justify-content: space-between; /* Distribute items along the main axis */
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
