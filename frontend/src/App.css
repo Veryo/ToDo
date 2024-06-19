@@ -1,0 +1,35 @@
+
+.body{
+  background-color: red;
+  width: 100%;
+  height: 100vh;
+}
+.container{
+  background-color: orange;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items:center
+}
+
+.completed{
+  background-color: blue;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.not_completed{
+  background-color: navajowhite;
+  width: 50%;
+  height: 50%;
+}
+.tasks{
+  background-color: red;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Distribute items along the main axis */
+}
