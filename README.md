@@ -1,26 +1,3 @@
-## To DO App
-## Description
-This is a responsive application desgined to create a simple to do list using React and Djagno
-
-## Description
-The Main file is where the backend of the app the api is in the todo/views.py 
-
-The frotnted file is where the fornetd of the application is most logic is in the src/pages Home.js and components  AddTask.js the css file is is the src/index.css
-
-##To test the app  if you dont have the virtual venv
-pip install virtualenv
-if yu have run 
-virtualenv env
-env\scripts\activate
-pip install -r requirements.txt
-
-
-If you wont to test the app 
-lunch terminal and type
-cd main
-py manage.py runserver
- lauch second terminal cd frontend
- npm start 
 # To-Do App
 
 ## Description
@@ -41,3 +18,21 @@ pip install virtualenv
 virtualenv env
 env\scripts\activate
 pip install -r requirements.txt
+```
+#### MAC/Linux
+```pip install virtualenv
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+```
+#### Testing the application
+- **Backend**:
+```
+cd main
+py manage.py runserver
+```
+- **Frontend**:
+  ```
+cd frontend
+npm start
+```
