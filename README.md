@@ -32,7 +32,7 @@ cd main
 py manage.py runserver
 ```
 - **Frontend**:
-  ```
+```
 cd frontend
 npm start
 ```
