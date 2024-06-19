@@ -26,11 +26,19 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 #### Testing the application
+Launch terminal and type
 - **Backend**:
+#### Windows
 ```
 cd main
 py manage.py runserver
 ```
+#### Linux/MAC
+```
+cd main
+python3 manage.py runserver
+```
+Launch second terminal and type
 - **Frontend**:
 ```
 cd frontend
